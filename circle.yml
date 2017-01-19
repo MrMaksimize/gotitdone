@@ -7,5 +7,4 @@ deployment:
   staging:
     branch: master
     commands:
-      - gulp publish
       - s3_website push
