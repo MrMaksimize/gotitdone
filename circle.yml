@@ -8,4 +8,4 @@ deployment:
     branch: master
     commands:
       - gulp publish
-      - netlify deploy --path ./site --site-id datasd --access-token $NETLIFY_TOKEN
+      - s3_website push
