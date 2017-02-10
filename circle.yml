@@ -1,13 +1,1 @@
-dependencies:
-  override:
-    - bundle install
-general:
-  branches:
-    only:
-      - master
-      - production
-deployment:
-  staging:
-    branch: master
-    commands:
-      - s3_website push
+ZGVwZW5kZW5jaWVzOgogIG92ZXJyaWRlOgogICAgLSBidW5kbGUgaW5zdGFsbApnZW5lcmFsOgogIGJyYW5jaGVzOgogICAgb25seToKICAgICAgLSBtYXN0ZXIKICAgICAgLSBwcm9kdWN0aW9uCmRlcGxveW1lbnQ6CiAgc3RhZ2luZzoKICAgIGJyYW5jaDogbWFzdGVyCiAgICBjb21tYW5kczoKICAgICAgLSBzNF93ZWJzaXRlIHB1c2gK
